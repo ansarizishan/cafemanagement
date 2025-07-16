@@ -9,7 +9,6 @@ print(f"Welcome to out resturant!")
 print(f"1. Pizza : Rs300\n2. Coffee : 120\n3. Burger: 120\n4. Juice : 200\n5. Tea : 50\n6. Pasta : 150\n7. Salad:50\n")
 
 total_amount = 0
-
 item_1 = input(f"Enter the name of the item you want to order:")
 if item_1 in menu:
     total_amount += menu[item_1]
